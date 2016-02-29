@@ -7,10 +7,15 @@ import ax.joint.font.Font;
 import ax.joint.font.impl.MyFont;
 
 /**
- * Created by per on 2016-02-20.
+ *
  */
 public class MyAbstractFactory extends AbstractFactory {
+
     /**
+     *
+     * {@inheritDoc}
+     *
+     * @return
      */
     @Override
     public Font doCreateFont() {
@@ -18,6 +23,10 @@ public class MyAbstractFactory extends AbstractFactory {
     }
 
     /**
+     *
+     * {@inheritDoc}
+     *
+     * @return
      */
     @Override
     public Document doCreateDocument(Font font) {

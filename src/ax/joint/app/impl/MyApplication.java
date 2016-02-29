@@ -5,12 +5,14 @@ import ax.joint.doc.Document;
 import ax.joint.doc.impl.MyDocument;
 
 /**
- * Created by per on 2016-02-19.
+ *
  */
 public class MyApplication extends Application {
 
     /**
+     *
      * {@inheritDoc}
+     *
      * @return
      */
     @Override
@@ -20,6 +22,8 @@ public class MyApplication extends Application {
 
     /**
      *
+     * {@inheritDoc}
+     *
      * @return
      */
     @Override
@@ -28,7 +32,7 @@ public class MyApplication extends Application {
     }
 
     /**
-     *
+     * {@inheritDoc}
      */
     @Override
     public void aboutToOpenDocument() {

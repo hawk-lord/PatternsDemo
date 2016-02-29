@@ -6,7 +6,6 @@ import ax.joint.font.Font;
 import ax.joint.font.impl.MyFont;
 
 /**
- * Created by per on 2016-02-20.
  *
  * Collection of factory methods.
  */
@@ -19,7 +18,7 @@ public abstract class AbstractFactory {
     public abstract Font doCreateFont();
 
     /**
-     * Factory method?
+     * Factory method
      * @retur
      */
     public abstract Document doCreateDocument(Font font);

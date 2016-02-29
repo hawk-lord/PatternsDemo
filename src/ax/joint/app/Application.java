@@ -3,7 +3,6 @@ package ax.joint.app;
 import ax.joint.doc.Document;
 
 /**
- * Created by per on 2016-02-19.
  *
  * Contains a template method.
  * Contains a factory method.

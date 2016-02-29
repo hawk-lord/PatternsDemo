@@ -15,8 +15,8 @@ public class Main {
 
         // Template method
         // Factory method
-        Application application1 = new MyApplication();
-        application1.openDocument();
+        Application application = new MyApplication();
+        application.openDocument();
 
         // Parameterised factory method
         ApplicationParameterised applicationParameterised = new ApplicationParameterised();

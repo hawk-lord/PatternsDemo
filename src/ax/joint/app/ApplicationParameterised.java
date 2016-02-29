@@ -5,11 +5,14 @@ import ax.joint.doc.impl.MyDocument;
 import ax.joint.doc.impl.YourDocument;
 
 /**
- * Created by per on 2016-02-19.
  *
- * Contains a factory method.
+ * Contains a parameterised factory method.
+ *
+ * Unlike ax.joint.app.Application, it is a concrete class, the simplest kind of factory.
+ * It is subclassed in MyApplicationParameterised to make the factory method behave differently.
  */
 public class ApplicationParameterised {
+
     /**
      *
      */

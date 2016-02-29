@@ -4,7 +4,7 @@ import ax.joint.doc.Document;
 import ax.joint.font.Font;
 
 /**
- * Created by per on 2016-02-19.
+ *
  */
 public class MyDocument extends Document {
 
@@ -18,6 +18,11 @@ public class MyDocument extends Document {
         System.out.println(getClass().getName() + " constructor with font");
         this.font = font;
     }
+
+    /**
+     *
+     * {@inheritDoc}
+     */
     @Override
     public void doRead() {
         System.out.println("doRead");

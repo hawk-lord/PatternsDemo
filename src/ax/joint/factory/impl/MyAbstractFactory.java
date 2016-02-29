@@ -12,24 +12,24 @@ import ax.joint.font.impl.MyFont;
 public class MyAbstractFactory extends AbstractFactory {
 
     /**
-     *
      * {@inheritDoc}
      *
      * @return
      */
     @Override
     public Font doCreateFont() {
+
         return new MyFont();
     }
 
     /**
-     *
      * {@inheritDoc}
      *
      * @return
      */
     @Override
     public Document doCreateDocument(Font font) {
+
         return new MyDocument(font);
     }
 

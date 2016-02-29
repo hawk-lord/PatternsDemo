@@ -5,9 +5,8 @@ import ax.joint.doc.impl.MyDocument;
 import ax.joint.doc.impl.YourDocument;
 
 /**
- *
  * Contains a parameterised factory method.
- *
+ * <p/>
  * Unlike ax.joint.app.Application, it is a concrete class, the simplest kind of factory.
  * It is subclassed in MyApplicationParameterised to make the factory method behave differently.
  */
@@ -16,7 +15,7 @@ public class ApplicationParameterised {
     /**
      *
      */
-    public void addDocument(){
+    public void addDocument() {
         System.out.println("addDocument");
 
     }
@@ -24,7 +23,7 @@ public class ApplicationParameterised {
     /**
      *
      */
-    public void openDocument(){
+    public void openDocument() {
         System.out.println("openDocument");
         Document document = doCreateDocument("My");
         System.out.println("Document was created");
@@ -34,7 +33,7 @@ public class ApplicationParameterised {
     /**
      * Parameterised Factory method
      */
-    protected Document doCreateDocument(String docType){
+    protected Document doCreateDocument(String docType) {
         if ("My".equals(docType)) {
             return new MyDocument();
         }

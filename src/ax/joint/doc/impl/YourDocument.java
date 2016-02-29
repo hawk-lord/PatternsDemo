@@ -12,6 +12,7 @@ public class YourDocument extends Document {
      */
     @Override
     public void doRead() {
+
         System.out.println("doRead");
     }
 }

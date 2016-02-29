@@ -10,24 +10,24 @@ import ax.joint.doc.impl.MyDocument;
 public class MyApplication extends Application {
 
     /**
-     *
      * {@inheritDoc}
      *
      * @return
      */
     @Override
     protected Document doCreateDocument() {
+
         return new MyDocument();
     }
 
     /**
-     *
      * {@inheritDoc}
      *
      * @return
      */
     @Override
     protected boolean canOpenDocument() {
+
         return true;
     }
 

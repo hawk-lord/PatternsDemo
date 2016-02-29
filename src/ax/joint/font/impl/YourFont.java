@@ -12,6 +12,7 @@ public class YourFont extends Font {
      */
     @Override
     public void render() {
+
         System.out.println(getClass().getName() + " render");
     }
 }

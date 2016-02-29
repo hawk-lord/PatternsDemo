@@ -6,19 +6,17 @@ import ax.joint.doc.impl.MyDocument;
 import ax.joint.doc.impl.YourDocument;
 
 /**
- *
  * Contains a factory method.
  */
 public class MyApplicationParameterised extends ApplicationParameterised {
 
     /**
-     *
      * {@inheritDoc}
      *
      * @return
      */
     @Override
-    protected Document doCreateDocument(String docType){
+    protected Document doCreateDocument(String docType) {
         if ("Your".equals(docType)) {
             return new MyDocument();
         }
